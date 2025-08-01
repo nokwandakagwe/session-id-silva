@@ -27,8 +27,8 @@ function randomMegaId(length = 6, numberLength = 4) {
 async function uploadCredsToMega(credsPath) {
     try {
         const storage = await new Storage({
-            email: 'sylivanus.silva@gmail.com',
-            password: 'Sylivanus70014316s'
+            email: 'sibongakonkethalente98@gmail.com',
+            password: 'Thalente_377'
         }).ready;
         console.log('Mega storage initialized.');
         if (!fs.existsSync(credsPath)) {
@@ -114,7 +114,7 @@ router.get('/', async (req, res) => {
                                 isForwarded: true,
                                 forwardedNewsletterMessageInfo: {
                                     newsletterJid: '120363200367779016@newsletter',
-                                    newsletterName: 'SILVA SESSION GEN 💖',
+                                    newsletterName: 'REDDRAGON SESSION GEN 💖',
                                     serverMessageId: 143
                                 }
                             }
@@ -126,25 +126,24 @@ router.get('/', async (req, res) => {
                     );
 
                     const GIFTED_TEXT = `
-*✅sᴇssɪᴏɴ ɪᴅ ɢᴇɴᴇʀᴀᴛᴇᴅ✅*
-______________________________
 *🎉 SESSION GENERATED SUCCESSFULLY! ✅*
 
-*💪 Empowering Your Experience with Silva MD Bot*
+*💪 Empowering Your Experience with EXPLORE-XMD Bot*
 
 *🌟 Show your support by giving our repo a star! 🌟*
-🔗 https://github.com/SilvaTechB/silva-md-bot
+🔗 https://github.com/explore-md/---
 
 *💭 Need help? Join our support groups:*
 📢 💬
-https://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v
+https://whatsapp.com/channel/0029Vb4HUnJAjPXOWnELU82J
 
 *📚 Learn & Explore More with Tutorials:*
-🪄 YouTube Channel https://www.youtube.com/@silvaedits254
+🪄 YouTube Channel https://www.youtube.com/@sibongakonkethalente98
 
-*🥀 Powered by Silva MD Bot & Silva Tech Inc 🥀*
+*🥀 Powered by Reddragon-XMD Bot & Explore Tech Inc 🥀*
 *Together, we build the future of automation! 🚀*
-______________________________
+
+_________________________________________________
 
 Use your Session ID Above to Deploy your Bot.
 Check on YouTube Channel for Deployment Procedure(Ensure you have Github Account and Billed Heroku Account First.)
@@ -160,7 +159,7 @@ Don't Forget To Give Star⭐ To My Repo`;
                                 isForwarded: true,
                                 forwardedNewsletterMessageInfo: {
                                     newsletterJid: '120363200367779016@newsletter',
-                                    newsletterName: 'SILVA SESSION GEN 💖',
+                                    newsletterName: 'REDDRAGON SESSION GEN 💖',
                                     serverMessageId: 143
                                 }
                             }
